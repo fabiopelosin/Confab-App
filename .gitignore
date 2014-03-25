@@ -9,24 +9,26 @@
 *.perspectivev3
 *.pbxuser
 xcuserdata
+
 # Build products
 build/
 *.o
 *.LinkFileList
 *.hmap
+
 # Automatic backup files
 *~.nib/
 *.swp
 *~
 *.dat
 *.dep
-# Cocoapods
+
+# CocoaPods
 Pods
-Future\ Pods
 *.xccheckout
+
 # AppCode specific files
 .idea/
 *.iml
 
-
-objc/
+CFASecrets.*
