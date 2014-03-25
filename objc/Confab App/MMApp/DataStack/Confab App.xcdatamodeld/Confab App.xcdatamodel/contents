@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2061" systemVersion="12D78" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="MMUser" representedClassName="MMUser" syncable="YES">
+        <attribute name="admin" attributeType="Boolean" syncable="YES"/>
+        <attribute name="avatar" optional="YES" attributeType="Transformable" valueTransformerName="MMImageValueTransformer" syncable="YES"/>
+        <attribute name="avatarURL" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" attributeType="Date" syncable="YES"/>
+        <attribute name="emailAddress" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="type" attributeType="String" syncable="YES"/>
+        <attribute name="userID" attributeType="String" indexed="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MMUser" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>

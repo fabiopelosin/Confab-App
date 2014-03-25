@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1090" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4514"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MMMainWindowController">
+            <connections>
+                <outlet property="navigationBarPlaceHolder" destination="9Ly-TT-gdm" id="0C4-IY-cnH"/>
+                <outlet property="viewContainer" destination="46" id="54"/>
+                <outlet property="window" destination="5" id="33"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="CampFire" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" animationBehavior="default" id="5">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="335" y="390" width="419" height="469"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1080"/>
+            <value key="minSize" type="size" width="350" height="600"/>
+            <view key="contentView" id="6">
+                <rect key="frame" x="0.0" y="0.0" width="419" height="469"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="9Ly-TT-gdm">
+                        <rect key="frame" x="0.0" y="429" width="419" height="40"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="0wc-00-Bzu"/>
+                        </constraints>
+                    </customView>
+                    <customView translatesAutoresizingMaskIntoConstraints="NO" id="46">
+                        <rect key="frame" x="0.0" y="0.0" width="419" height="429"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    </customView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="46" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="50"/>
+                    <constraint firstItem="46" firstAttribute="bottom" secondItem="6" secondAttribute="bottom" id="51"/>
+                    <constraint firstItem="46" firstAttribute="trailing" secondItem="6" secondAttribute="trailing" id="52"/>
+                    <constraint firstItem="46" firstAttribute="top" secondItem="6" secondAttribute="top" constant="40" id="55"/>
+                    <constraint firstItem="9Ly-TT-gdm" firstAttribute="top" secondItem="6" secondAttribute="top" id="CSc-Aq-gyU"/>
+                    <constraint firstItem="9Ly-TT-gdm" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="Q3K-Ox-KTY"/>
+                    <constraint firstAttribute="trailing" secondItem="9Ly-TT-gdm" secondAttribute="trailing" id="nqb-sd-29G"/>
+                </constraints>
+            </view>
+        </window>
+    </objects>
+</document>

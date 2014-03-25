@@ -1,0 +1,17 @@
+inhibit_all_warnings!
+
+pod 'IFBKThirtySeven',      :git => 'https://github.com/kreeger/IFBKThirtySeven.git'
+pod 'IFBKCampground',       :git => 'https://github.com/irrationalfab/IFBKCampground.git'
+pod 'IRFNavigationKit',     :git => 'https://github.com/irrationalfab/IRFNavigationKit.git'
+pod 'IRFAutoCompletionKit', :git => 'https://github.com/irrationalfab/IRFAutoCompletionKit'
+
+pod 'ObjectiveSugar'
+pod 'MASPreferences'
+pod 'MagicalRecord'
+pod 'Reachability'
+
+# pod 'SharedInstanceGCD'
+# pod 'WebViewJavascriptBridge'
+# pod 'DSFavIconManager'
+# pod 'AFNetworkActivityLogger'
+

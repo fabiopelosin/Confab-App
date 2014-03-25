@@ -1,0 +1,91 @@
+PODS:
+  - AFNetworking (2.0.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.0.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.0.3):
+    - AFNetworking/NSURLConnection
+  - AFNetworking/Reachability (2.0.3)
+  - AFNetworking/Security (2.0.3)
+  - AFNetworking/Serialization (2.0.3)
+  - IFBKCampground (0.1.0):
+    - IFBKCampground/Accounts
+    - IFBKCampground/Authorization
+    - IFBKCampground/Rooms
+    - IFBKThirtySeven
+  - IFBKCampground/Accounts (0.1.0):
+    - IFBKThirtySeven
+  - IFBKCampground/Authorization (0.1.0):
+    - IFBKThirtySeven
+  - IFBKCampground/Rooms (0.1.0):
+    - IFBKThirtySeven
+    - IRFEmojiCheatSheet
+    - twitter-text-objc
+  - IFBKThirtySeven (0.0.4):
+    - AFNetworking (~> 2.0.2)
+    - IFBKThirtySeven/Models
+    - SBJson (~> 3.2)
+  - IFBKThirtySeven/Models (0.0.4):
+    - AFNetworking (~> 2.0.2)
+    - SBJson (~> 3.2)
+  - IRFAutoCompletionKit (0.2.0):
+    - IRFAutoCompletionKit/CompletionProviders
+    - IRFAutoCompletionKit/ViewControllers
+    - IRFAutoCompletionKit/ViewManagers
+  - IRFAutoCompletionKit/CompletionProviders (0.2.0):
+    - IRFEmojiCheatSheet
+  - IRFAutoCompletionKit/ViewControllers (0.2.0)
+  - IRFAutoCompletionKit/ViewManagers (0.2.0)
+  - IRFEmojiCheatSheet (0.3.0)
+  - IRFNavigationKit (0.1.0)
+  - MagicalRecord (2.2):
+    - MagicalRecord/Core
+  - MagicalRecord/Core (2.2)
+  - MASPreferences (1.1)
+  - ObjectiveSugar (1.1.0)
+  - Reachability (3.1.1)
+  - SBJson (3.2)
+  - twitter-text-objc (1.6.1)
+
+DEPENDENCIES:
+  - IFBKCampground (from `https://github.com/irrationalfab/IFBKCampground.git`)
+  - IFBKThirtySeven (from `https://github.com/kreeger/IFBKThirtySeven.git`)
+  - IRFAutoCompletionKit (from `https://github.com/irrationalfab/IRFAutoCompletionKit`)
+  - IRFNavigationKit (from `https://github.com/irrationalfab/IRFNavigationKit.git`)
+  - MagicalRecord
+  - MASPreferences
+  - ObjectiveSugar
+  - Reachability
+
+EXTERNAL SOURCES:
+  IFBKCampground:
+    :git: https://github.com/irrationalfab/IFBKCampground.git
+  IFBKThirtySeven:
+    :git: https://github.com/kreeger/IFBKThirtySeven.git
+  IRFAutoCompletionKit:
+    :git: https://github.com/irrationalfab/IRFAutoCompletionKit
+  IRFNavigationKit:
+    :git: https://github.com/irrationalfab/IRFNavigationKit.git
+
+SPEC CHECKSUMS:
+  AFNetworking: e499052cbf3d743e9bb727bb37adb9dc2547ba15
+  IFBKCampground: 5ad5eaf7cd748f3b5697b29262459f115ccb59bd
+  IFBKThirtySeven: 9d99ad73cccefe64bf9ca3155e2dd5fd53744c26
+  IRFAutoCompletionKit: 9b1b51f4950a23c4c9fb1a901c593b20049194cb
+  IRFEmojiCheatSheet: 88536eccaa3d994a8300063ea4b9cfc245561df5
+  IRFNavigationKit: 606ebd50e5c0ae8c2c20ea5f8ce03d89dd56eea3
+  MagicalRecord: 95d49d74ef752cd52f6ad87bcb474817fc3978cf
+  MASPreferences: 103fda1283c701dfed5503edbe24b1ab504ed6d9
+  ObjectiveSugar: fed588577bcf9733546aeaa089de444e4bab9a52
+  Reachability: be4883bb93f31e38266ae3365e5600a317aae735
+  SBJson: abc2bf2baef456d5dae213f9826fe2b6fdf19861
+  twitter-text-objc: 667f26d0ad5c53cf8fcbc5ccb63d72ebfa3c6306
+
+COCOAPODS: 0.29.0

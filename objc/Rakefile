@@ -1,0 +1,56 @@
+require 'pathname'
+require 'json'
+
+def generate(source_path, destination_path, size)
+  command = "convert #{source_path} -resize #{size.ljust(9)} #{destination_path}"
+  puts command
+  # `#{command}`
+end
+
+def get_icon_set_manifest(path)
+  path = Pathname.new(path)
+  manifest_file = path + "Contents.json"
+  JSON.parse(manifest_file.read)
+end
+
+def save_icon_set_manifest(path, manifest)
+  path = Pathname.new(path)
+  manifest_file = path + "Contents.json"
+  json = JSON.pretty_generate(manifest)
+  # space_before is not working
+  json = json.gsub(/(".*"):/, '\1 :')
+  puts "Saving set manifest at #{manifest_file}"
+  File.open(manifest_file, 'w') { |file| file.write(json) }
+end
+
+def generate_images_for_icon_set(source_path, icon_set_path)
+  icon_set_path = Pathname.new(icon_set_path)
+  source_path = Pathname.new(source_path)
+
+  manifest = get_icon_set_manifest(icon_set_path)
+  manifest['images'].each do |image_description|
+    file_name = "#{image_description['idiom']}-#{image_description['size']}-#{image_description['scale']}.png"
+    destination_path = icon_set_path + file_name
+    size = convert_size_according_to_scale(image_description['size'], image_description['scale'])
+    generate(source_path, destination_path, size)
+    image_description['filename'] = file_name
+  end
+  save_icon_set_manifest(icon_set_path, manifest)
+end
+
+def convert_size_according_to_scale(size, scale_string)
+  scale = scale_string[0...-1].to_i
+  width, height = size.split("x").map(&:to_i)
+  "#{width * scale}x#{height * scale}"
+end
+
+#-----------------------------------------------------------------------------#
+
+desc "Generates the icons for the App"
+task :generate_icons do
+
+  source_path = "Design/Confab App-Base-Icon.png"
+  icon_set = "Confab App/Resources/Images.xcassets/AppIcon.appiconset"
+  generate_images_for_icon_set(source_path, icon_set)
+end
+

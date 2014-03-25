@@ -1,0 +1,1214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5ADC05D17F2E2930046F270 /* Install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E5ADC06017F2E2930046F270 /* Build configuration list for PBXAggregateTarget "Install" */;
+			buildPhases = (
+				E5ADC06117F2E2A40046F270 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Install;
+			productName = Install;
+		};
+		E5B0A99E184131930004C4C7 /* Release */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E5B0A9A1184131930004C4C7 /* Build configuration list for PBXAggregateTarget "Release" */;
+			buildPhases = (
+				E5B0A9A4184131AA0004C4C7 /* ShellScript */,
+			);
+			dependencies = (
+				E5B0A9A31841319B0004C4C7 /* PBXTargetDependency */,
+			);
+			name = Release;
+			productName = Release;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0047BA4C87594A1DBA8871D2 /* MMTableCellHeighManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CD66813D964A0FAD12BAF4 /* MMTableCellHeighManager.h */; };
+		0D6DF8E3AD4F4E91924D7BE8 /* MMContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = DF9679D1E4A6448CACEAF3FE /* MMContentView.h */; };
+		1209A2396212424FAC35C305 /* MMPasteMessageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A40D0BB06F2452F8BE44B69 /* MMPasteMessageContentView.h */; };
+		1232DBB26EDF447F84C0E1E3 /* MMImageValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 25863BCCF5AA49818A75DA5F /* MMImageValueTransformer.h */; };
+		2270457564894BA3B5F73FA1 /* MMDataStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 845665EDC010452E89561154 /* MMDataStackManager.m */; };
+		2AD83BCB36A94798A027DCD3 /* MMTweetMessageTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = E38CB1836F204C9098BA72A9 /* MMTweetMessageTableCellView.h */; };
+		2FC35CFEC5284B0BB7DD37E3 /* CFAPreferencesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1D5E45EE30428F942E9442 /* CFAPreferencesManager.m */; };
+		37E912BC412F481F93AF703E /* MMTweetMessageTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = AD034AC6758A47918E7DBE1B /* MMTweetMessageTableCellView.h */; };
+		3A1E342270FA47DAA74FA7AA /* MMNetworkStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C1721B996F0423F94920FD8 /* MMNetworkStackManager.h */; };
+		430C798F995641D0ADAC33F7 /* MMTextMessageTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6184F82F6B3C452CA10D76F1 /* MMTextMessageTableCellView.h */; };
+		51F8302C6CAE49689B001395 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE5E4081273454C9ABC1945 /* libPods.a */; };
+		57B4B8D1322644268CE1F864 /* MMRoomTableViewCellList.h in Headers */ = {isa = PBXBuildFile; fileRef = 686CDD71B18948A392388DA9 /* MMRoomTableViewCellList.h */; };
+		5B2108C64A894E3FAF5E51A2 /* MMUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8880C0AA1744C988F9F2F6 /* MMUser.h */; };
+		615DA0C88AEE4605B52ADC2E /* MMRoomCellProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E36C6623FB4E42B5EB188D /* MMRoomCellProvider.h */; };
+		6C3BEDCA70914FBD990B1AED /* MMWindowsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F1FADEEE374BD089388BBD /* MMWindowsManager.h */; };
+		6C91882D349A482DA237E190 /* MMRoomTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = 624A6A3AFC8149829BAAB626 /* MMRoomTableCellView.h */; };
+		745DA5B542EA42CD91FFC1C6 /* MMImageValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = D05D94439E0E4CB18092DD45 /* MMImageValueTransformer.h */; };
+		86145A2CA5A84317AA0ED08F /* MMPreferencesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 828212A9FA5747C5815FC1B6 /* MMPreferencesManager.h */; };
+		86923A1809C042779378A7C7 /* MMUploadTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CE4103A86A44BFDBAED521E /* MMUploadTableCellView.h */; };
+		8A6D1D9420AA46AF9B20A823 /* MMNetworkStackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD15140E13F46758098DDF6 /* MMNetworkStackManager.m */; };
+		8E31A5CDE79D4CDFB1093934 /* MMWindowsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5AA36EC2E84EC28E005BDA /* MMWindowsManager.m */; };
+		8ECA9DC1F1DD4428A2621634 /* MMDataStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 01EBC8C84248414E8E918CA2 /* MMDataStackManager.h */; };
+		90B8C72CF30F485EA098FB37 /* Confab App.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 7704D96286084FC7A853B136 /* Confab App.xcdatamodeld */; };
+		9B7F36434D0441719AF7AEA1 /* MMRoomViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 815B91322DBC469699ED187C /* MMRoomViewController.h */; };
+		A1CF57B9986F403BB00B53D3 /* MMTextMessageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 55AEF86D572E47398EACAE03 /* MMTextMessageContentView.h */; };
+		AC82AEF2330444F6823149E5 /* MMPasteMessageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D940D55B25D43EC8CCB8334 /* MMPasteMessageContentView.h */; };
+		B0A592AE7E6A492BA81FC8CA /* MMContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = C042F6F2CEA94AD99342CA91 /* MMContentView.h */; };
+		B0D44195E920443093259734 /* MMAccountsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E03051E0551426E8BB96EA8 /* MMAccountsViewController.h */; };
+		B11702C959F44F6AAD427C65 /* MMUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8C14DDE43E4A5AA9F6AAB9 /* MMUser.h */; };
+		B45DC5359DCE4173A897EBAD /* CFAPreferencesManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 72BFECA2640B4731A78C0E78 /* CFAPreferencesManager.h */; };
+		B68781DE093F471EB47E4399 /* MMTextMessageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A29B199710444F89D369E96 /* MMTextMessageContentView.h */; };
+		B8A13FCB8A354DE29C173C37 /* MMUploadTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BCC504CFD264ADAB237E8F7 /* MMUploadTableCellView.h */; };
+		BD313E2555FF428EA013B50F /* MMNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4436D90BB4304C2C9EBDE85B /* MMNotificationManager.m */; };
+		BD7F19D8A85643F48C2361EE /* MMWindowsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2947D30459CC44DE9DF74993 /* MMWindowsManager.h */; };
+		C7A39CDE720941CBA0CC062B /* MMNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 038AB67CC10C4464B890A577 /* MMNotificationManager.h */; };
+		CDA42A7E13CC4D6EB7447A4B /* MMImageValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F84A7040F8B47FB95223C98 /* MMImageValueTransformer.m */; };
+		D5154D9A0B57402AA2B5A5D5 /* MMTextMessageTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F6E7A6B56AF466E94A9F6DF /* MMTextMessageTableCellView.h */; };
+		D52C2D0795524BCA8A7037E8 /* MMNotificationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D09F407DA74EC8844F069A /* MMNotificationManager.h */; };
+		DA28ACA81DCD45BCBB430531 /* MMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F27019CE454BE4B7E0524F /* MMUser.m */; };
+		E4DF1E5FDDB6465A8DC2FA48 /* MMNetworkStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E6E55685C36497598BD6851 /* MMNetworkStackManager.h */; };
+		E51E6BEF1832A94E0066869B /* ConfabAppTypography.h in Headers */ = {isa = PBXBuildFile; fileRef = E51E6BED1832A94E0066869B /* ConfabAppTypography.h */; };
+		E51E6BF01832A94E0066869B /* ConfabAppTypography.m in Sources */ = {isa = PBXBuildFile; fileRef = E51E6BEE1832A94E0066869B /* ConfabAppTypography.m */; };
+		E529C02B182EBEFB00A269C4 /* Confab App-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = E529C029182EBEFB00A269C4 /* Confab App-Prefix.pch */; };
+		E53CD604183698F000D9F513 /* CFAAuthorizationTokenViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E53CD601183698F000D9F513 /* CFAAuthorizationTokenViewController.h */; };
+		E53CD605183698F000D9F513 /* CFAAuthorizationTokenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53CD602183698F000D9F513 /* CFAAuthorizationTokenViewController.m */; };
+		E53CD606183698F000D9F513 /* CFAAuthorizationTokenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53CD603183698F000D9F513 /* CFAAuthorizationTokenViewController.xib */; };
+		E53D247418330CDB00FD1BFC /* CFAAuthorizationCredentialsVault.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D247218330CDB00FD1BFC /* CFAAuthorizationCredentialsVault.h */; };
+		E53D247518330CDB00FD1BFC /* CFAAuthorizationCredentialsVault.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D247318330CDB00FD1BFC /* CFAAuthorizationCredentialsVault.m */; };
+		E53D24BC18330D0B00FD1BFC /* MMAccountsViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D247818330D0B00FD1BFC /* MMAccountsViewController.h */; };
+		E53D24BD18330D0B00FD1BFC /* MMAccountsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D247918330D0B00FD1BFC /* MMAccountsViewController.m */; };
+		E53D24BE18330D0B00FD1BFC /* MMAccountsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D247A18330D0B00FD1BFC /* MMAccountsViewController.xib */; };
+		E53D24BF18330D0B00FD1BFC /* MMAccountsTableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D247C18330D0B00FD1BFC /* MMAccountsTableViewManager.h */; };
+		E53D24C018330D0B00FD1BFC /* MMAccountsTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D247D18330D0B00FD1BFC /* MMAccountsTableViewManager.m */; };
+		E53D24C118330D0B00FD1BFC /* CFAAuthWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D247F18330D0B00FD1BFC /* CFAAuthWindowController.h */; };
+		E53D24C218330D0B00FD1BFC /* CFAAuthWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D248018330D0B00FD1BFC /* CFAAuthWindowController.m */; };
+		E53D24C318330D0B00FD1BFC /* CFAAuthWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D248118330D0B00FD1BFC /* CFAAuthWindowController.xib */; };
+		E53D24C418330D0B00FD1BFC /* MMMainWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D248218330D0B00FD1BFC /* MMMainWindowController.h */; };
+		E53D24C518330D0B00FD1BFC /* MMMainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D248318330D0B00FD1BFC /* MMMainWindowController.m */; };
+		E53D24C618330D0B00FD1BFC /* MMMainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D248418330D0B00FD1BFC /* MMMainWindowController.xib */; };
+		E53D24CD18330D0B00FD1BFC /* MMRoomInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D248E18330D0B00FD1BFC /* MMRoomInfoViewController.h */; };
+		E53D24CE18330D0B00FD1BFC /* MMRoomInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D248F18330D0B00FD1BFC /* MMRoomInfoViewController.m */; };
+		E53D24CF18330D0B00FD1BFC /* MMRoomInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D249018330D0B00FD1BFC /* MMRoomInfoViewController.xib */; };
+		E53D24D018330D0B00FD1BFC /* MMRoomViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D249118330D0B00FD1BFC /* MMRoomViewController.h */; };
+		E53D24D118330D0B00FD1BFC /* MMRoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D249218330D0B00FD1BFC /* MMRoomViewController.m */; };
+		E53D24D218330D0B00FD1BFC /* MMRoomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D249318330D0B00FD1BFC /* MMRoomViewController.xib */; };
+		E53D24D318330D0B00FD1BFC /* MMInfoTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D249718330D0B00FD1BFC /* MMInfoTableCellView.h */; };
+		E53D24D418330D0B00FD1BFC /* MMInfoTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D249818330D0B00FD1BFC /* MMInfoTableCellView.m */; };
+		E53D24D518330D0B00FD1BFC /* MMInfoTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D249918330D0B00FD1BFC /* MMInfoTableCellView.xib */; };
+		E53D24D618330D0B00FD1BFC /* MMContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D249B18330D0B00FD1BFC /* MMContentView.h */; };
+		E53D24D718330D0B00FD1BFC /* MMContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D249C18330D0B00FD1BFC /* MMContentView.m */; };
+		E53D24D818330D0B00FD1BFC /* MMPasteMessageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D249E18330D0B00FD1BFC /* MMPasteMessageContentView.h */; };
+		E53D24D918330D0B00FD1BFC /* MMPasteMessageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D249F18330D0B00FD1BFC /* MMPasteMessageContentView.m */; };
+		E53D24DA18330D0B00FD1BFC /* MMPasteMessageContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D24A018330D0B00FD1BFC /* MMPasteMessageContentView.xib */; };
+		E53D24DB18330D0B00FD1BFC /* MMRoomTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24A118330D0B00FD1BFC /* MMRoomTableCellView.h */; };
+		E53D24DC18330D0B00FD1BFC /* MMRoomTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24A218330D0B00FD1BFC /* MMRoomTableCellView.m */; };
+		E53D24DD18330D0B00FD1BFC /* MMRoomTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D24A318330D0B00FD1BFC /* MMRoomTableCellView.xib */; };
+		E53D24DE18330D0B00FD1BFC /* MMTextMessageContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24A518330D0B00FD1BFC /* MMTextMessageContentView.h */; };
+		E53D24DF18330D0B00FD1BFC /* MMTextMessageContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24A618330D0B00FD1BFC /* MMTextMessageContentView.m */; };
+		E53D24E018330D0B00FD1BFC /* MMTextMessageContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D24A718330D0B00FD1BFC /* MMTextMessageContentView.xib */; };
+		E53D24E118330D0B00FD1BFC /* MMUserTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24A918330D0B00FD1BFC /* MMUserTableCellView.h */; };
+		E53D24E218330D0B00FD1BFC /* MMUserTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24AA18330D0B00FD1BFC /* MMUserTableCellView.m */; };
+		E53D24E318330D0B00FD1BFC /* MMUserTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D24AB18330D0B00FD1BFC /* MMUserTableCellView.xib */; };
+		E53D24E418330D0B00FD1BFC /* MMRoomCellProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24AD18330D0B00FD1BFC /* MMRoomCellProvider.h */; };
+		E53D24E518330D0B00FD1BFC /* MMRoomCellProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24AE18330D0B00FD1BFC /* MMRoomCellProvider.m */; };
+		E53D24E818330D0B00FD1BFC /* MMRoomTableManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24B118330D0B00FD1BFC /* MMRoomTableManager.h */; };
+		E53D24E918330D0B00FD1BFC /* MMRoomTableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24B218330D0B00FD1BFC /* MMRoomTableManager.m */; };
+		E53D24EC18330D0B00FD1BFC /* MMTableCellHeighManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24B518330D0B00FD1BFC /* MMTableCellHeighManager.h */; };
+		E53D24ED18330D0B00FD1BFC /* MMTableCellHeighManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24B618330D0B00FD1BFC /* MMTableCellHeighManager.m */; };
+		E53D24EE18330D0B00FD1BFC /* MMChatTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24B818330D0B00FD1BFC /* MMChatTextView.h */; };
+		E53D24EF18330D0B00FD1BFC /* MMChatTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24B918330D0B00FD1BFC /* MMChatTextView.m */; };
+		E53D24F018330D0B00FD1BFC /* MMFixedTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24BA18330D0B00FD1BFC /* MMFixedTextField.h */; };
+		E53D24F118330D0B00FD1BFC /* MMFixedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24BB18330D0B00FD1BFC /* MMFixedTextField.m */; };
+		E53D24F618330D1B00FD1BFC /* CFAGeneralPreferencesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24F318330D1B00FD1BFC /* CFAGeneralPreferencesViewController.h */; };
+		E53D24F718330D1B00FD1BFC /* CFAGeneralPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24F418330D1B00FD1BFC /* CFAGeneralPreferencesViewController.m */; };
+		E53D24F818330D1B00FD1BFC /* CFAGeneralPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E53D24F518330D1B00FD1BFC /* CFAGeneralPreferencesViewController.xib */; };
+		E53D250018330D6800FD1BFC /* MMUserImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24FA18330D6800FD1BFC /* MMUserImageCache.h */; };
+		E53D250118330D6800FD1BFC /* MMUserImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24FB18330D6800FD1BFC /* MMUserImageCache.m */; };
+		E53D250218330D6800FD1BFC /* MMUserImageProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24FC18330D6800FD1BFC /* MMUserImageProvider.h */; };
+		E53D250318330D6800FD1BFC /* MMUserImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24FD18330D6800FD1BFC /* MMUserImageProvider.m */; };
+		E53D250418330D6800FD1BFC /* MMUsersFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = E53D24FE18330D6800FD1BFC /* MMUsersFetcher.h */; };
+		E53D250518330D6800FD1BFC /* MMUsersFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24FF18330D6800FD1BFC /* MMUsersFetcher.m */; };
+		E55E661A183BC7F1003FA8FC /* WelcomeMessage.html in Resources */ = {isa = PBXBuildFile; fileRef = E55E6619183BC7F1003FA8FC /* WelcomeMessage.html */; };
+		E55E661C183BCA95003FA8FC /* WelcomeMessageIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E55E661B183BCA95003FA8FC /* WelcomeMessageIcon.png */; };
+		E581DDA717F061AE00B8CDB1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E581DD4C17F061AE00B8CDB1 /* MainMenu.xib */; };
+		E581DDC817F061AE00B8CDB1 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E581DD9017F061AE00B8CDB1 /* MMAppDelegate.m */; };
+		E581DDCC17F061AE00B8CDB1 /* bot_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = E581DD9817F061AE00B8CDB1 /* bot_avatar.png */; };
+		E581DDCE17F061AE00B8CDB1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E581DD9D17F061AE00B8CDB1 /* main.m */; };
+		E581DDD117F061D000B8CDB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E581DD9B17F061AE00B8CDB1 /* InfoPlist.strings */; };
+		E581DDD317F061F700B8CDB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E581DDD217F061F700B8CDB1 /* Images.xcassets */; };
+		E58CD7421855E4B200FFFFE6 /* CFARoomBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = E58CD7401855E4B200FFFFE6 /* CFARoomBackgroundView.h */; };
+		E58CD7431855E4B200FFFFE6 /* CFARoomBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = E58CD7411855E4B200FFFFE6 /* CFARoomBackgroundView.m */; };
+		E58D51661852CDC50023D802 /* CFARoomPreferencesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E58D51631852CDC50023D802 /* CFARoomPreferencesViewController.h */; };
+		E58D51671852CDC50023D802 /* CFARoomPreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D51641852CDC50023D802 /* CFARoomPreferencesViewController.m */; };
+		E58D51681852CDC50023D802 /* CFARoomPreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E58D51651852CDC50023D802 /* CFARoomPreferencesViewController.xib */; };
+		E58D516B1852CE3F0023D802 /* CFAPreferencesWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = E58D51691852CE3F0023D802 /* CFAPreferencesWindowController.h */; };
+		E58D516C1852CE3F0023D802 /* CFAPreferencesWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = E58D516A1852CE3F0023D802 /* CFAPreferencesWindowController.m */; };
+		E5AB58BF17FD5B35008C5385 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AB58BE17FD5B35008C5385 /* QuartzCore.framework */; };
+		E5AC25FE170F175D00A84B20 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5AC25FD170F175D00A84B20 /* Cocoa.framework */; };
+		E5FE717417F45D7F0098C4E1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5FE717317F45D7F0098C4E1 /* WebKit.framework */; };
+		EE5CB555BA95476B95B5EEA0 /* MMRoomTableManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A96CBF142F54F2C99B2A240 /* MMRoomTableManager.h */; };
+		F1F7B79C5D634EF1995C7212 /* MMUserTableCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7351BB0B9AAF40B495717CD7 /* MMUserTableCellView.h */; };
+		FD581C7063254E5A8CE572E1 /* MMDataStackManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 28ABE582CCFB42FFB2F0EAAE /* MMDataStackManager.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E5B0A9A21841319B0004C4C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5AC25F2170F175D00A84B20 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5AC25F9170F175D00A84B20;
+			remoteInfo = "Confab App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01EBC8C84248414E8E918CA2 /* MMDataStackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDataStackManager.h; path = MMApp/DataStack/MMDataStackManager.h; sourceTree = "<group>"; };
+		038AB67CC10C4464B890A577 /* MMNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMNotificationManager.h; path = MMApp/NotificationsManager/MMNotificationManager.h; sourceTree = "<group>"; };
+		0807BD6D95884941A898B866 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		0B1D5E45EE30428F942E9442 /* CFAPreferencesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CFAPreferencesManager.m; path = ../MMApp/PreferencesManager/CFAPreferencesManager.m; sourceTree = "<group>"; };
+		1A40D0BB06F2452F8BE44B69 /* MMPasteMessageContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMPasteMessageContentView.h; path = Cells/MMPasteMessageContentView.h; sourceTree = "<group>"; };
+		1F6E7A6B56AF466E94A9F6DF /* MMTextMessageTableCellView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMTextMessageTableCellView.h; path = Cells/Deprecated/MMTextMessageTableCellView.h; sourceTree = "<group>"; };
+		25863BCCF5AA49818A75DA5F /* MMImageValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMImageValueTransformer.h; sourceTree = "<group>"; };
+		28ABE582CCFB42FFB2F0EAAE /* MMDataStackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMDataStackManager.h; sourceTree = "<group>"; };
+		2947D30459CC44DE9DF74993 /* MMWindowsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMWindowsManager.h; sourceTree = "<group>"; };
+		2C1721B996F0423F94920FD8 /* MMNetworkStackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMNetworkStackManager.h; path = MMApp/NetworkStack/MMNetworkStackManager.h; sourceTree = "<group>"; };
+		2D940D55B25D43EC8CCB8334 /* MMPasteMessageContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMPasteMessageContentView.h; sourceTree = "<group>"; };
+		3A96CBF142F54F2C99B2A240 /* MMRoomTableManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMRoomTableManager.h; sourceTree = "<group>"; };
+		3E6E55685C36497598BD6851 /* MMNetworkStackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMNetworkStackManager.h; sourceTree = "<group>"; };
+		4436D90BB4304C2C9EBDE85B /* MMNotificationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = MMNotificationManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		4A29B199710444F89D369E96 /* MMTextMessageContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMTextMessageContentView.h; sourceTree = "<group>"; };
+		4CE4103A86A44BFDBAED521E /* MMUploadTableCellView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMUploadTableCellView.h; path = Cells/Deprecated/MMUploadTableCellView.h; sourceTree = "<group>"; };
+		4F84A7040F8B47FB95223C98 /* MMImageValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMImageValueTransformer.m; sourceTree = "<group>"; };
+		55AEF86D572E47398EACAE03 /* MMTextMessageContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMTextMessageContentView.h; path = Cells/MMTextMessageContentView.h; sourceTree = "<group>"; };
+		5A8880C0AA1744C988F9F2F6 /* MMUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMUser.h; sourceTree = "<group>"; };
+		5E03051E0551426E8BB96EA8 /* MMAccountsViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMAccountsViewController.h; sourceTree = "<group>"; };
+		5F5AA36EC2E84EC28E005BDA /* MMWindowsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMWindowsManager.m; sourceTree = "<group>"; };
+		6184F82F6B3C452CA10D76F1 /* MMTextMessageTableCellView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMTextMessageTableCellView.h; sourceTree = "<group>"; };
+		624A6A3AFC8149829BAAB626 /* MMRoomTableCellView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMRoomTableCellView.h; sourceTree = "<group>"; };
+		686CDD71B18948A392388DA9 /* MMRoomTableViewCellList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMRoomTableViewCellList.h; sourceTree = "<group>"; };
+		6D8C14DDE43E4A5AA9F6AAB9 /* MMUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMUser.h; path = MMApp/DataStack/MMUser.h; sourceTree = "<group>"; };
+		72BFECA2640B4731A78C0E78 /* CFAPreferencesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CFAPreferencesManager.h; path = ../MMApp/PreferencesManager/CFAPreferencesManager.h; sourceTree = "<group>"; };
+		7351BB0B9AAF40B495717CD7 /* MMUserTableCellView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMUserTableCellView.h; sourceTree = "<group>"; };
+		7BCC504CFD264ADAB237E8F7 /* MMUploadTableCellView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMUploadTableCellView.h; sourceTree = "<group>"; };
+		815B91322DBC469699ED187C /* MMRoomViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMRoomViewController.h; sourceTree = "<group>"; };
+		828212A9FA5747C5815FC1B6 /* MMPreferencesManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMPreferencesManager.h; path = MMApp/PreferencesManager/MMPreferencesManager.h; sourceTree = "<group>"; };
+		845665EDC010452E89561154 /* MMDataStackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMDataStackManager.m; sourceTree = "<group>"; };
+		88F27019CE454BE4B7E0524F /* MMUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMUser.m; sourceTree = "<group>"; };
+		98E36C6623FB4E42B5EB188D /* MMRoomCellProvider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMRoomCellProvider.h; sourceTree = "<group>"; };
+		9C1AD8532FA044CDA884F451 /* Confab App.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = "Confab App.xcdatamodel"; sourceTree = "<group>"; };
+		AD034AC6758A47918E7DBE1B /* MMTweetMessageTableCellView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMTweetMessageTableCellView.h; path = Cells/Deprecated/MMTweetMessageTableCellView.h; sourceTree = "<group>"; };
+		B8D09F407DA74EC8844F069A /* MMNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = MMNotificationManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		C042F6F2CEA94AD99342CA91 /* MMContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMContentView.h; path = Cells/MMContentView.h; sourceTree = "<group>"; };
+		CCD15140E13F46758098DDF6 /* MMNetworkStackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MMNetworkStackManager.m; sourceTree = "<group>"; };
+		D05D94439E0E4CB18092DD45 /* MMImageValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMImageValueTransformer.h; path = MMApp/DataStack/MMImageValueTransformer.h; sourceTree = "<group>"; };
+		D6CD66813D964A0FAD12BAF4 /* MMTableCellHeighManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMTableCellHeighManager.h; sourceTree = "<group>"; };
+		D9F1FADEEE374BD089388BBD /* MMWindowsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMWindowsManager.h; path = MMApp/WindowsManager/MMWindowsManager.h; sourceTree = "<group>"; };
+		DF9679D1E4A6448CACEAF3FE /* MMContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMContentView.h; sourceTree = "<group>"; };
+		E38CB1836F204C9098BA72A9 /* MMTweetMessageTableCellView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MMTweetMessageTableCellView.h; sourceTree = "<group>"; };
+		E51E6BED1832A94E0066869B /* ConfabAppTypography.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfabAppTypography.h; sourceTree = "<group>"; };
+		E51E6BEE1832A94E0066869B /* ConfabAppTypography.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfabAppTypography.m; sourceTree = "<group>"; };
+		E529C029182EBEFB00A269C4 /* Confab App-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Confab App-Prefix.pch"; sourceTree = "<group>"; };
+		E529C02A182EBEFB00A269C4 /* Confab App-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Confab App-Info.plist"; sourceTree = "<group>"; };
+		E529C04E182FD5A100A269C4 /* CFASecrets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CFASecrets.h; sourceTree = "<group>"; };
+		E53CD601183698F000D9F513 /* CFAAuthorizationTokenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAAuthorizationTokenViewController.h; sourceTree = "<group>"; };
+		E53CD602183698F000D9F513 /* CFAAuthorizationTokenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAAuthorizationTokenViewController.m; sourceTree = "<group>"; };
+		E53CD603183698F000D9F513 /* CFAAuthorizationTokenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFAAuthorizationTokenViewController.xib; sourceTree = "<group>"; };
+		E53D247218330CDB00FD1BFC /* CFAAuthorizationCredentialsVault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CFAAuthorizationCredentialsVault.h; path = "Confab App/MMApp/CFAAuthorizationCredentialsVault.h"; sourceTree = SOURCE_ROOT; };
+		E53D247318330CDB00FD1BFC /* CFAAuthorizationCredentialsVault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CFAAuthorizationCredentialsVault.m; path = "Confab App/MMApp/CFAAuthorizationCredentialsVault.m"; sourceTree = SOURCE_ROOT; };
+		E53D247818330D0B00FD1BFC /* MMAccountsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAccountsViewController.h; sourceTree = "<group>"; };
+		E53D247918330D0B00FD1BFC /* MMAccountsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAccountsViewController.m; sourceTree = "<group>"; };
+		E53D247A18330D0B00FD1BFC /* MMAccountsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMAccountsViewController.xib; sourceTree = "<group>"; };
+		E53D247C18330D0B00FD1BFC /* MMAccountsTableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAccountsTableViewManager.h; sourceTree = "<group>"; };
+		E53D247D18330D0B00FD1BFC /* MMAccountsTableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAccountsTableViewManager.m; sourceTree = "<group>"; };
+		E53D247F18330D0B00FD1BFC /* CFAAuthWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAAuthWindowController.h; sourceTree = "<group>"; };
+		E53D248018330D0B00FD1BFC /* CFAAuthWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAAuthWindowController.m; sourceTree = "<group>"; };
+		E53D248118330D0B00FD1BFC /* CFAAuthWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFAAuthWindowController.xib; sourceTree = "<group>"; };
+		E53D248218330D0B00FD1BFC /* MMMainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMainWindowController.h; sourceTree = "<group>"; };
+		E53D248318330D0B00FD1BFC /* MMMainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMainWindowController.m; sourceTree = "<group>"; };
+		E53D248418330D0B00FD1BFC /* MMMainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMMainWindowController.xib; sourceTree = "<group>"; };
+		E53D248E18330D0B00FD1BFC /* MMRoomInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRoomInfoViewController.h; sourceTree = "<group>"; };
+		E53D248F18330D0B00FD1BFC /* MMRoomInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRoomInfoViewController.m; sourceTree = "<group>"; };
+		E53D249018330D0B00FD1BFC /* MMRoomInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMRoomInfoViewController.xib; sourceTree = "<group>"; };
+		E53D249118330D0B00FD1BFC /* MMRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRoomViewController.h; sourceTree = "<group>"; };
+		E53D249218330D0B00FD1BFC /* MMRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRoomViewController.m; sourceTree = "<group>"; };
+		E53D249318330D0B00FD1BFC /* MMRoomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMRoomViewController.xib; sourceTree = "<group>"; };
+		E53D249718330D0B00FD1BFC /* MMInfoTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMInfoTableCellView.h; sourceTree = "<group>"; };
+		E53D249818330D0B00FD1BFC /* MMInfoTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMInfoTableCellView.m; sourceTree = "<group>"; };
+		E53D249918330D0B00FD1BFC /* MMInfoTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMInfoTableCellView.xib; sourceTree = "<group>"; };
+		E53D249B18330D0B00FD1BFC /* MMContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMContentView.h; sourceTree = "<group>"; };
+		E53D249C18330D0B00FD1BFC /* MMContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMContentView.m; sourceTree = "<group>"; };
+		E53D249E18330D0B00FD1BFC /* MMPasteMessageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMPasteMessageContentView.h; sourceTree = "<group>"; };
+		E53D249F18330D0B00FD1BFC /* MMPasteMessageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMPasteMessageContentView.m; sourceTree = "<group>"; };
+		E53D24A018330D0B00FD1BFC /* MMPasteMessageContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMPasteMessageContentView.xib; sourceTree = "<group>"; };
+		E53D24A118330D0B00FD1BFC /* MMRoomTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRoomTableCellView.h; sourceTree = "<group>"; };
+		E53D24A218330D0B00FD1BFC /* MMRoomTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRoomTableCellView.m; sourceTree = "<group>"; };
+		E53D24A318330D0B00FD1BFC /* MMRoomTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMRoomTableCellView.xib; sourceTree = "<group>"; };
+		E53D24A518330D0B00FD1BFC /* MMTextMessageContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTextMessageContentView.h; sourceTree = "<group>"; };
+		E53D24A618330D0B00FD1BFC /* MMTextMessageContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTextMessageContentView.m; sourceTree = "<group>"; };
+		E53D24A718330D0B00FD1BFC /* MMTextMessageContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMTextMessageContentView.xib; sourceTree = "<group>"; };
+		E53D24A918330D0B00FD1BFC /* MMUserTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMUserTableCellView.h; sourceTree = "<group>"; };
+		E53D24AA18330D0B00FD1BFC /* MMUserTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUserTableCellView.m; sourceTree = "<group>"; };
+		E53D24AB18330D0B00FD1BFC /* MMUserTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MMUserTableCellView.xib; sourceTree = "<group>"; };
+		E53D24AD18330D0B00FD1BFC /* MMRoomCellProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRoomCellProvider.h; sourceTree = "<group>"; };
+		E53D24AE18330D0B00FD1BFC /* MMRoomCellProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRoomCellProvider.m; sourceTree = "<group>"; };
+		E53D24B118330D0B00FD1BFC /* MMRoomTableManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMRoomTableManager.h; sourceTree = "<group>"; };
+		E53D24B218330D0B00FD1BFC /* MMRoomTableManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMRoomTableManager.m; sourceTree = "<group>"; };
+		E53D24B518330D0B00FD1BFC /* MMTableCellHeighManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTableCellHeighManager.h; sourceTree = "<group>"; };
+		E53D24B618330D0B00FD1BFC /* MMTableCellHeighManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTableCellHeighManager.m; sourceTree = "<group>"; };
+		E53D24B818330D0B00FD1BFC /* MMChatTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMChatTextView.h; sourceTree = "<group>"; };
+		E53D24B918330D0B00FD1BFC /* MMChatTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMChatTextView.m; sourceTree = "<group>"; };
+		E53D24BA18330D0B00FD1BFC /* MMFixedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMFixedTextField.h; sourceTree = "<group>"; };
+		E53D24BB18330D0B00FD1BFC /* MMFixedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMFixedTextField.m; sourceTree = "<group>"; };
+		E53D24F318330D1B00FD1BFC /* CFAGeneralPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAGeneralPreferencesViewController.h; sourceTree = "<group>"; };
+		E53D24F418330D1B00FD1BFC /* CFAGeneralPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAGeneralPreferencesViewController.m; sourceTree = "<group>"; };
+		E53D24F518330D1B00FD1BFC /* CFAGeneralPreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFAGeneralPreferencesViewController.xib; sourceTree = "<group>"; };
+		E53D24FA18330D6800FD1BFC /* MMUserImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMUserImageCache.h; sourceTree = "<group>"; };
+		E53D24FB18330D6800FD1BFC /* MMUserImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUserImageCache.m; sourceTree = "<group>"; };
+		E53D24FC18330D6800FD1BFC /* MMUserImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMUserImageProvider.h; sourceTree = "<group>"; };
+		E53D24FD18330D6800FD1BFC /* MMUserImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUserImageProvider.m; sourceTree = "<group>"; };
+		E53D24FE18330D6800FD1BFC /* MMUsersFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMUsersFetcher.h; sourceTree = "<group>"; };
+		E53D24FF18330D6800FD1BFC /* MMUsersFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUsersFetcher.m; sourceTree = "<group>"; };
+		E55E6619183BC7F1003FA8FC /* WelcomeMessage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WelcomeMessage.html; sourceTree = "<group>"; };
+		E55E661B183BCA95003FA8FC /* WelcomeMessageIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomeMessageIcon.png; sourceTree = "<group>"; };
+		E581DD4D17F061AE00B8CDB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E581DD8F17F061AE00B8CDB1 /* MMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
+		E581DD9017F061AE00B8CDB1 /* MMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
+		E581DD9817F061AE00B8CDB1 /* bot_avatar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bot_avatar.png; sourceTree = "<group>"; };
+		E581DD9C17F061AE00B8CDB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E581DD9D17F061AE00B8CDB1 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E581DDD217F061F700B8CDB1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E58CD7401855E4B200FFFFE6 /* CFARoomBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFARoomBackgroundView.h; sourceTree = "<group>"; };
+		E58CD7411855E4B200FFFFE6 /* CFARoomBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFARoomBackgroundView.m; sourceTree = "<group>"; };
+		E58D51631852CDC50023D802 /* CFARoomPreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFARoomPreferencesViewController.h; sourceTree = "<group>"; };
+		E58D51641852CDC50023D802 /* CFARoomPreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFARoomPreferencesViewController.m; sourceTree = "<group>"; };
+		E58D51651852CDC50023D802 /* CFARoomPreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CFARoomPreferencesViewController.xib; sourceTree = "<group>"; };
+		E58D51691852CE3F0023D802 /* CFAPreferencesWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFAPreferencesWindowController.h; sourceTree = "<group>"; };
+		E58D516A1852CE3F0023D802 /* CFAPreferencesWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFAPreferencesWindowController.m; sourceTree = "<group>"; };
+		E5AB58BE17FD5B35008C5385 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E5AC25FA170F175D00A84B20 /* Confab App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Confab App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5AC25FD170F175D00A84B20 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E5AC2600170F175D00A84B20 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E5AC2601170F175D00A84B20 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E5AC2602170F175D00A84B20 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E5AC261B170F175D00A84B20 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E5FE717317F45D7F0098C4E1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		ECE5E4081273454C9ABC1945 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5AC25F7170F175D00A84B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5AC25FE170F175D00A84B20 /* Cocoa.framework in Frameworks */,
+				E5AB58BF17FD5B35008C5385 /* QuartzCore.framework in Frameworks */,
+				E5FE717417F45D7F0098C4E1 /* WebKit.framework in Frameworks */,
+				51F8302C6CAE49689B001395 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36178AE69FD64EE386192012 /* NetworkStack */ = {
+			isa = PBXGroup;
+			children = (
+				3E6E55685C36497598BD6851 /* MMNetworkStackManager.h */,
+				CCD15140E13F46758098DDF6 /* MMNetworkStackManager.m */,
+			);
+			path = NetworkStack;
+			sourceTree = "<group>";
+		};
+		4DB2C3734A364A3E8BE48130 /* WindowsManager */ = {
+			isa = PBXGroup;
+			children = (
+				2947D30459CC44DE9DF74993 /* MMWindowsManager.h */,
+				5F5AA36EC2E84EC28E005BDA /* MMWindowsManager.m */,
+			);
+			path = WindowsManager;
+			sourceTree = "<group>";
+		};
+		943CC32C44FD4998AEA9A670 /* DataStack */ = {
+			isa = PBXGroup;
+			children = (
+				28ABE582CCFB42FFB2F0EAAE /* MMDataStackManager.h */,
+				845665EDC010452E89561154 /* MMDataStackManager.m */,
+				25863BCCF5AA49818A75DA5F /* MMImageValueTransformer.h */,
+				4F84A7040F8B47FB95223C98 /* MMImageValueTransformer.m */,
+				5A8880C0AA1744C988F9F2F6 /* MMUser.h */,
+				88F27019CE454BE4B7E0524F /* MMUser.m */,
+				7704D96286084FC7A853B136 /* Confab App.xcdatamodeld */,
+			);
+			path = DataStack;
+			sourceTree = "<group>";
+		};
+		A86BEB6E909D475A9C13C817 /* NotificationsManager */ = {
+			isa = PBXGroup;
+			children = (
+				B8D09F407DA74EC8844F069A /* MMNotificationManager.h */,
+				4436D90BB4304C2C9EBDE85B /* MMNotificationManager.m */,
+			);
+			path = NotificationsManager;
+			sourceTree = "<group>";
+		};
+		E53CD600183698BB00D9F513 /* IFCAAuthorizationTokenViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E53CD601183698F000D9F513 /* CFAAuthorizationTokenViewController.h */,
+				E53CD602183698F000D9F513 /* CFAAuthorizationTokenViewController.m */,
+				E53CD603183698F000D9F513 /* CFAAuthorizationTokenViewController.xib */,
+			);
+			name = IFCAAuthorizationTokenViewController;
+			sourceTree = "<group>";
+		};
+		E53D247618330D0B00FD1BFC /* Main Window */ = {
+			isa = PBXGroup;
+			children = (
+				E53D248218330D0B00FD1BFC /* MMMainWindowController.h */,
+				E53D248318330D0B00FD1BFC /* MMMainWindowController.m */,
+				E53D248418330D0B00FD1BFC /* MMMainWindowController.xib */,
+				E53D247718330D0B00FD1BFC /* MMAccountsViewController */,
+				E53D248518330D0B00FD1BFC /* MMRoomViewController */,
+			);
+			name = "Main Window";
+			path = "Confab App/MMMainWindowController";
+			sourceTree = "<group>";
+		};
+		E53D247718330D0B00FD1BFC /* MMAccountsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E53D247818330D0B00FD1BFC /* MMAccountsViewController.h */,
+				E53D247918330D0B00FD1BFC /* MMAccountsViewController.m */,
+				E53D247A18330D0B00FD1BFC /* MMAccountsViewController.xib */,
+				E53D247B18330D0B00FD1BFC /* TableView */,
+			);
+			path = MMAccountsViewController;
+			sourceTree = "<group>";
+		};
+		E53D247B18330D0B00FD1BFC /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D247C18330D0B00FD1BFC /* MMAccountsTableViewManager.h */,
+				E53D247D18330D0B00FD1BFC /* MMAccountsTableViewManager.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		E53D247E18330D0B00FD1BFC /* Auth Window */ = {
+			isa = PBXGroup;
+			children = (
+				E53D247218330CDB00FD1BFC /* CFAAuthorizationCredentialsVault.h */,
+				E53D247318330CDB00FD1BFC /* CFAAuthorizationCredentialsVault.m */,
+				E58D51721852D7D10023D802 /* OAuth Window */,
+			);
+			name = "Auth Window";
+			path = "Confab App/MMMainWindowController/MMAuthWindowController";
+			sourceTree = "<group>";
+		};
+		E53D248518330D0B00FD1BFC /* MMRoomViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E53CD600183698BB00D9F513 /* IFCAAuthorizationTokenViewController */,
+				E53D248D18330D0B00FD1BFC /* MMRoomInforViewController */,
+				E53D249118330D0B00FD1BFC /* MMRoomViewController.h */,
+				E53D249218330D0B00FD1BFC /* MMRoomViewController.m */,
+				E53D249318330D0B00FD1BFC /* MMRoomViewController.xib */,
+				E53D249418330D0B00FD1BFC /* TableView */,
+				E53D24B718330D0B00FD1BFC /* Views */,
+			);
+			path = MMRoomViewController;
+			sourceTree = "<group>";
+		};
+		E53D248D18330D0B00FD1BFC /* MMRoomInforViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E53D248E18330D0B00FD1BFC /* MMRoomInfoViewController.h */,
+				E53D248F18330D0B00FD1BFC /* MMRoomInfoViewController.m */,
+				E53D249018330D0B00FD1BFC /* MMRoomInfoViewController.xib */,
+			);
+			path = MMRoomInforViewController;
+			sourceTree = "<group>";
+		};
+		E53D249418330D0B00FD1BFC /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D249518330D0B00FD1BFC /* Cells */,
+				E53D24AC18330D0B00FD1BFC /* MMRoomCellProvider */,
+				E53D24B118330D0B00FD1BFC /* MMRoomTableManager.h */,
+				E53D24B218330D0B00FD1BFC /* MMRoomTableManager.m */,
+				E53D24B518330D0B00FD1BFC /* MMTableCellHeighManager.h */,
+				E53D24B618330D0B00FD1BFC /* MMTableCellHeighManager.m */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		E53D249518330D0B00FD1BFC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E53D249618330D0B00FD1BFC /* MMInfoTableCellView */,
+				E53D249A18330D0B00FD1BFC /* MMRoomTableCellView */,
+				E53D24A818330D0B00FD1BFC /* MMUserTableCellView */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E53D249618330D0B00FD1BFC /* MMInfoTableCellView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D249718330D0B00FD1BFC /* MMInfoTableCellView.h */,
+				E53D249818330D0B00FD1BFC /* MMInfoTableCellView.m */,
+				E53D249918330D0B00FD1BFC /* MMInfoTableCellView.xib */,
+			);
+			path = MMInfoTableCellView;
+			sourceTree = "<group>";
+		};
+		E53D249A18330D0B00FD1BFC /* MMRoomTableCellView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D249B18330D0B00FD1BFC /* MMContentView.h */,
+				E53D249C18330D0B00FD1BFC /* MMContentView.m */,
+				E53D249D18330D0B00FD1BFC /* MMPasteMessageContentView */,
+				E53D24A118330D0B00FD1BFC /* MMRoomTableCellView.h */,
+				E53D24A218330D0B00FD1BFC /* MMRoomTableCellView.m */,
+				E53D24A318330D0B00FD1BFC /* MMRoomTableCellView.xib */,
+				E53D24A418330D0B00FD1BFC /* MMTextMessageContentView */,
+			);
+			path = MMRoomTableCellView;
+			sourceTree = "<group>";
+		};
+		E53D249D18330D0B00FD1BFC /* MMPasteMessageContentView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D249E18330D0B00FD1BFC /* MMPasteMessageContentView.h */,
+				E53D249F18330D0B00FD1BFC /* MMPasteMessageContentView.m */,
+				E53D24A018330D0B00FD1BFC /* MMPasteMessageContentView.xib */,
+			);
+			path = MMPasteMessageContentView;
+			sourceTree = "<group>";
+		};
+		E53D24A418330D0B00FD1BFC /* MMTextMessageContentView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D24A518330D0B00FD1BFC /* MMTextMessageContentView.h */,
+				E53D24A618330D0B00FD1BFC /* MMTextMessageContentView.m */,
+				E53D24A718330D0B00FD1BFC /* MMTextMessageContentView.xib */,
+			);
+			path = MMTextMessageContentView;
+			sourceTree = "<group>";
+		};
+		E53D24A818330D0B00FD1BFC /* MMUserTableCellView */ = {
+			isa = PBXGroup;
+			children = (
+				E53D24A918330D0B00FD1BFC /* MMUserTableCellView.h */,
+				E53D24AA18330D0B00FD1BFC /* MMUserTableCellView.m */,
+				E53D24AB18330D0B00FD1BFC /* MMUserTableCellView.xib */,
+			);
+			path = MMUserTableCellView;
+			sourceTree = "<group>";
+		};
+		E53D24AC18330D0B00FD1BFC /* MMRoomCellProvider */ = {
+			isa = PBXGroup;
+			children = (
+				E53D24AD18330D0B00FD1BFC /* MMRoomCellProvider.h */,
+				E53D24AE18330D0B00FD1BFC /* MMRoomCellProvider.m */,
+			);
+			path = MMRoomCellProvider;
+			sourceTree = "<group>";
+		};
+		E53D24B718330D0B00FD1BFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E53D24B818330D0B00FD1BFC /* MMChatTextView.h */,
+				E53D24B918330D0B00FD1BFC /* MMChatTextView.m */,
+				E53D24BA18330D0B00FD1BFC /* MMFixedTextField.h */,
+				E53D24BB18330D0B00FD1BFC /* MMFixedTextField.m */,
+				E58CD7401855E4B200FFFFE6 /* CFARoomBackgroundView.h */,
+				E58CD7411855E4B200FFFFE6 /* CFARoomBackgroundView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E53D24F218330D1B00FD1BFC /*  Preferences */ = {
+			isa = PBXGroup;
+			children = (
+				72BFECA2640B4731A78C0E78 /* CFAPreferencesManager.h */,
+				0B1D5E45EE30428F942E9442 /* CFAPreferencesManager.m */,
+				E58D51701852D2050023D802 /* Preferences Window */,
+			);
+			name = " Preferences";
+			path = "Confab App/MMAppPreferences";
+			sourceTree = "<group>";
+		};
+		E53D24F918330D6800FD1BFC /* [TODO] IFBKCampground */ = {
+			isa = PBXGroup;
+			children = (
+				E53D24FA18330D6800FD1BFC /* MMUserImageCache.h */,
+				E53D24FB18330D6800FD1BFC /* MMUserImageCache.m */,
+				E53D24FC18330D6800FD1BFC /* MMUserImageProvider.h */,
+				E53D24FD18330D6800FD1BFC /* MMUserImageProvider.m */,
+				E53D24FE18330D6800FD1BFC /* MMUsersFetcher.h */,
+				E53D24FF18330D6800FD1BFC /* MMUsersFetcher.m */,
+			);
+			name = "[TODO] IFBKCampground";
+			path = "Confab App/[TODO] IFBKCampground";
+			sourceTree = "<group>";
+		};
+		E581DD3B17F061AE00B8CDB1 /* Confab App */ = {
+			isa = PBXGroup;
+			children = (
+				E529C04E182FD5A100A269C4 /* CFASecrets.h */,
+				E581DD8F17F061AE00B8CDB1 /* MMAppDelegate.h */,
+				E581DD9017F061AE00B8CDB1 /* MMAppDelegate.m */,
+				E581DD4C17F061AE00B8CDB1 /* MainMenu.xib */,
+				FA550F61234448449557CAA5 /* CFAApp */,
+			);
+			path = "Confab App";
+			sourceTree = "<group>";
+		};
+		E581DD9717F061AE00B8CDB1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E581DDD217F061F700B8CDB1 /* Images.xcassets */,
+				E581DD9817F061AE00B8CDB1 /* bot_avatar.png */,
+			);
+			name = Resources;
+			path = "Confab App/Resources";
+			sourceTree = "<group>";
+		};
+		E581DD9917F061AE00B8CDB1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E529C029182EBEFB00A269C4 /* Confab App-Prefix.pch */,
+				E529C02A182EBEFB00A269C4 /* Confab App-Info.plist */,
+				E581DD9B17F061AE00B8CDB1 /* InfoPlist.strings */,
+				E581DD9D17F061AE00B8CDB1 /* main.m */,
+			);
+			name = "Supporting Files";
+			path = "Confab App/Supporting Files";
+			sourceTree = "<group>";
+		};
+		E58D516D1852CE4C0023D802 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				E53D24F318330D1B00FD1BFC /* CFAGeneralPreferencesViewController.h */,
+				E53D24F418330D1B00FD1BFC /* CFAGeneralPreferencesViewController.m */,
+				E53D24F518330D1B00FD1BFC /* CFAGeneralPreferencesViewController.xib */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		E58D516E1852CE500023D802 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				E58D51631852CDC50023D802 /* CFARoomPreferencesViewController.h */,
+				E58D51641852CDC50023D802 /* CFARoomPreferencesViewController.m */,
+				E58D51651852CDC50023D802 /* CFARoomPreferencesViewController.xib */,
+			);
+			name = Rooms;
+			sourceTree = "<group>";
+		};
+		E58D51701852D2050023D802 /* Preferences Window */ = {
+			isa = PBXGroup;
+			children = (
+				E58D51691852CE3F0023D802 /* CFAPreferencesWindowController.h */,
+				E58D516A1852CE3F0023D802 /* CFAPreferencesWindowController.m */,
+				E58D516D1852CE4C0023D802 /* General */,
+				E58D516E1852CE500023D802 /* Rooms */,
+			);
+			name = "Preferences Window";
+			sourceTree = "<group>";
+		};
+		E58D51711852D7B90023D802 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E581DD9717F061AE00B8CDB1 /* Resources */,
+				E581DD9917F061AE00B8CDB1 /* Supporting Files */,
+				E5AC25FC170F175D00A84B20 /* Frameworks */,
+				E5AC25FB170F175D00A84B20 /* Products */,
+				0807BD6D95884941A898B866 /* Pods.xcconfig */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		E58D51721852D7D10023D802 /* OAuth Window */ = {
+			isa = PBXGroup;
+			children = (
+				E55E661B183BCA95003FA8FC /* WelcomeMessageIcon.png */,
+				E55E6619183BC7F1003FA8FC /* WelcomeMessage.html */,
+				E53D247F18330D0B00FD1BFC /* CFAAuthWindowController.h */,
+				E53D248018330D0B00FD1BFC /* CFAAuthWindowController.m */,
+				E53D248118330D0B00FD1BFC /* CFAAuthWindowController.xib */,
+			);
+			name = "OAuth Window";
+			sourceTree = "<group>";
+		};
+		E5AC25F1170F175D00A84B20 = {
+			isa = PBXGroup;
+			children = (
+				E581DD3B17F061AE00B8CDB1 /* Confab App */,
+				E53D247E18330D0B00FD1BFC /* Auth Window */,
+				E53D247618330D0B00FD1BFC /* Main Window */,
+				E53D24F218330D1B00FD1BFC /*  Preferences */,
+				E53D24F918330D6800FD1BFC /* [TODO] IFBKCampground */,
+				E58D51711852D7B90023D802 /* Other */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+			usesTabs = 0;
+		};
+		E5AC25FB170F175D00A84B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC25FA170F175D00A84B20 /* Confab App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5AC25FC170F175D00A84B20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC25FD170F175D00A84B20 /* Cocoa.framework */,
+				E5AB58BE17FD5B35008C5385 /* QuartzCore.framework */,
+				E5AC261B170F175D00A84B20 /* SenTestingKit.framework */,
+				E5FE717317F45D7F0098C4E1 /* WebKit.framework */,
+				ECE5E4081273454C9ABC1945 /* libPods.a */,
+				E5AC25FF170F175D00A84B20 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5AC25FF170F175D00A84B20 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5AC2600170F175D00A84B20 /* AppKit.framework */,
+				E5AC2601170F175D00A84B20 /* CoreData.framework */,
+				E5AC2602170F175D00A84B20 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FA550F61234448449557CAA5 /* CFAApp */ = {
+			isa = PBXGroup;
+			children = (
+				943CC32C44FD4998AEA9A670 /* DataStack */,
+				36178AE69FD64EE386192012 /* NetworkStack */,
+				A86BEB6E909D475A9C13C817 /* NotificationsManager */,
+				4DB2C3734A364A3E8BE48130 /* WindowsManager */,
+				E51E6BED1832A94E0066869B /* ConfabAppTypography.h */,
+				E51E6BEE1832A94E0066869B /* ConfabAppTypography.m */,
+			);
+			name = CFAApp;
+			path = MMApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E42C13EB5E9B4CB9AA6F26E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0D44195E920443093259734 /* MMAccountsViewController.h in Headers */,
+				0D6DF8E3AD4F4E91924D7BE8 /* MMContentView.h in Headers */,
+				B0A592AE7E6A492BA81FC8CA /* MMContentView.h in Headers */,
+				E53D250018330D6800FD1BFC /* MMUserImageCache.h in Headers */,
+				E51E6BEF1832A94E0066869B /* ConfabAppTypography.h in Headers */,
+				E53D24D318330D0B00FD1BFC /* MMInfoTableCellView.h in Headers */,
+				FD581C7063254E5A8CE572E1 /* MMDataStackManager.h in Headers */,
+				E53D24E118330D0B00FD1BFC /* MMUserTableCellView.h in Headers */,
+				E53D24F618330D1B00FD1BFC /* CFAGeneralPreferencesViewController.h in Headers */,
+				8ECA9DC1F1DD4428A2621634 /* MMDataStackManager.h in Headers */,
+				E53D24C118330D0B00FD1BFC /* CFAAuthWindowController.h in Headers */,
+				E53D24BF18330D0B00FD1BFC /* MMAccountsTableViewManager.h in Headers */,
+				745DA5B542EA42CD91FFC1C6 /* MMImageValueTransformer.h in Headers */,
+				1232DBB26EDF447F84C0E1E3 /* MMImageValueTransformer.h in Headers */,
+				E53D24EC18330D0B00FD1BFC /* MMTableCellHeighManager.h in Headers */,
+				3A1E342270FA47DAA74FA7AA /* MMNetworkStackManager.h in Headers */,
+				E4DF1E5FDDB6465A8DC2FA48 /* MMNetworkStackManager.h in Headers */,
+				E53D24DB18330D0B00FD1BFC /* MMRoomTableCellView.h in Headers */,
+				E53D24CD18330D0B00FD1BFC /* MMRoomInfoViewController.h in Headers */,
+				D52C2D0795524BCA8A7037E8 /* MMNotificationManager.h in Headers */,
+				C7A39CDE720941CBA0CC062B /* MMNotificationManager.h in Headers */,
+				AC82AEF2330444F6823149E5 /* MMPasteMessageContentView.h in Headers */,
+				1209A2396212424FAC35C305 /* MMPasteMessageContentView.h in Headers */,
+				E58D51661852CDC50023D802 /* CFARoomPreferencesViewController.h in Headers */,
+				E53D24D018330D0B00FD1BFC /* MMRoomViewController.h in Headers */,
+				E53D250418330D6800FD1BFC /* MMUsersFetcher.h in Headers */,
+				B45DC5359DCE4173A897EBAD /* CFAPreferencesManager.h in Headers */,
+				86145A2CA5A84317AA0ED08F /* MMPreferencesManager.h in Headers */,
+				615DA0C88AEE4605B52ADC2E /* MMRoomCellProvider.h in Headers */,
+				E53CD604183698F000D9F513 /* CFAAuthorizationTokenViewController.h in Headers */,
+				E529C02B182EBEFB00A269C4 /* Confab App-Prefix.pch in Headers */,
+				6C91882D349A482DA237E190 /* MMRoomTableCellView.h in Headers */,
+				EE5CB555BA95476B95B5EEA0 /* MMRoomTableManager.h in Headers */,
+				57B4B8D1322644268CE1F864 /* MMRoomTableViewCellList.h in Headers */,
+				9B7F36434D0441719AF7AEA1 /* MMRoomViewController.h in Headers */,
+				0047BA4C87594A1DBA8871D2 /* MMTableCellHeighManager.h in Headers */,
+				E53D247418330CDB00FD1BFC /* CFAAuthorizationCredentialsVault.h in Headers */,
+				B68781DE093F471EB47E4399 /* MMTextMessageContentView.h in Headers */,
+				E53D24F018330D0B00FD1BFC /* MMFixedTextField.h in Headers */,
+				A1CF57B9986F403BB00B53D3 /* MMTextMessageContentView.h in Headers */,
+				E58CD7421855E4B200FFFFE6 /* CFARoomBackgroundView.h in Headers */,
+				E58D516B1852CE3F0023D802 /* CFAPreferencesWindowController.h in Headers */,
+				E53D24BC18330D0B00FD1BFC /* MMAccountsViewController.h in Headers */,
+				D5154D9A0B57402AA2B5A5D5 /* MMTextMessageTableCellView.h in Headers */,
+				E53D24D818330D0B00FD1BFC /* MMPasteMessageContentView.h in Headers */,
+				E53D24E418330D0B00FD1BFC /* MMRoomCellProvider.h in Headers */,
+				E53D24DE18330D0B00FD1BFC /* MMTextMessageContentView.h in Headers */,
+				430C798F995641D0ADAC33F7 /* MMTextMessageTableCellView.h in Headers */,
+				37E912BC412F481F93AF703E /* MMTweetMessageTableCellView.h in Headers */,
+				E53D24E818330D0B00FD1BFC /* MMRoomTableManager.h in Headers */,
+				E53D24D618330D0B00FD1BFC /* MMContentView.h in Headers */,
+				E53D250218330D6800FD1BFC /* MMUserImageProvider.h in Headers */,
+				2AD83BCB36A94798A027DCD3 /* MMTweetMessageTableCellView.h in Headers */,
+				86923A1809C042779378A7C7 /* MMUploadTableCellView.h in Headers */,
+				E53D24C418330D0B00FD1BFC /* MMMainWindowController.h in Headers */,
+				B8A13FCB8A354DE29C173C37 /* MMUploadTableCellView.h in Headers */,
+				B11702C959F44F6AAD427C65 /* MMUser.h in Headers */,
+				5B2108C64A894E3FAF5E51A2 /* MMUser.h in Headers */,
+				E53D24EE18330D0B00FD1BFC /* MMChatTextView.h in Headers */,
+				F1F7B79C5D634EF1995C7212 /* MMUserTableCellView.h in Headers */,
+				6C3BEDCA70914FBD990B1AED /* MMWindowsManager.h in Headers */,
+				BD7F19D8A85643F48C2361EE /* MMWindowsManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E5AC25F9170F175D00A84B20 /* Confab App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5AC262B170F175D00A84B20 /* Build configuration list for PBXNativeTarget "Confab App" */;
+			buildPhases = (
+				C5CE577CA6244B619EEE3820 /* Check Pods Manifest.lock */,
+				E5AC25F6170F175D00A84B20 /* Sources */,
+				E5AC25F7170F175D00A84B20 /* Frameworks */,
+				E5AC25F8170F175D00A84B20 /* Resources */,
+				20D217E546A94B5DA4B1FDD3 /* Warn for TODO and FIXME comments */,
+				2B22D601487B4538A8354BBE /* Copy Pods Resources */,
+				E42C13EB5E9B4CB9AA6F26E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Confab App";
+			productName = "Confab App";
+			productReference = E5AC25FA170F175D00A84B20 /* Confab App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5AC25F2170F175D00A84B20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CFA;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Fabio Pelosin";
+			};
+			buildConfigurationList = E5AC25F5170F175D00A84B20 /* Build configuration list for PBXProject "Confab App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5AC25F1170F175D00A84B20;
+			productRefGroup = E5AC25FB170F175D00A84B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5AC25F9170F175D00A84B20 /* Confab App */,
+				E5ADC05D17F2E2930046F270 /* Install */,
+				E5B0A99E184131930004C4C7 /* Release */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5AC25F8170F175D00A84B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E581DDD317F061F700B8CDB1 /* Images.xcassets in Resources */,
+				E581DDD117F061D000B8CDB1 /* InfoPlist.strings in Resources */,
+				E53D24DD18330D0B00FD1BFC /* MMRoomTableCellView.xib in Resources */,
+				E53D24F818330D1B00FD1BFC /* CFAGeneralPreferencesViewController.xib in Resources */,
+				E53D24CF18330D0B00FD1BFC /* MMRoomInfoViewController.xib in Resources */,
+				E53D24D218330D0B00FD1BFC /* MMRoomViewController.xib in Resources */,
+				E55E661C183BCA95003FA8FC /* WelcomeMessageIcon.png in Resources */,
+				E581DDA717F061AE00B8CDB1 /* MainMenu.xib in Resources */,
+				E53D24E318330D0B00FD1BFC /* MMUserTableCellView.xib in Resources */,
+				90B8C72CF30F485EA098FB37 /* Confab App.xcdatamodeld in Resources */,
+				E55E661A183BC7F1003FA8FC /* WelcomeMessage.html in Resources */,
+				E53D24E018330D0B00FD1BFC /* MMTextMessageContentView.xib in Resources */,
+				E53D24C318330D0B00FD1BFC /* CFAAuthWindowController.xib in Resources */,
+				E581DDCC17F061AE00B8CDB1 /* bot_avatar.png in Resources */,
+				E53D24D518330D0B00FD1BFC /* MMInfoTableCellView.xib in Resources */,
+				E53D24DA18330D0B00FD1BFC /* MMPasteMessageContentView.xib in Resources */,
+				E53D24BE18330D0B00FD1BFC /* MMAccountsViewController.xib in Resources */,
+				E58D51681852CDC50023D802 /* CFARoomPreferencesViewController.xib in Resources */,
+				E53CD606183698F000D9F513 /* CFAAuthorizationTokenViewController.xib in Resources */,
+				E53D24C618330D0B00FD1BFC /* MMMainWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20D217E546A94B5DA4B1FDD3 /* Warn for TODO and FIXME comments */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Warn for TODO and FIXME comments";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nFILE_EXTENSIONS=\"h|m|mm|c|cpp\"\n# find -E \"${SRCROOT}\" -ipath \"${SRCROOT}/pods\" -prune -o \\( -regex \".*\\.($FILE_EXTENSIONS)$\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
+		2B22D601487B4538A8354BBE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		C5CE577CA6244B619EEE3820 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+		E5ADC06117F2E2A40046F270 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"${BUILD_DIR}/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/Confab App.app\"\nrm -rf \"/Applications/Confab App.app\"\ncp -rf \"${BUILD_DIR}/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/Confab App.app\" \"/Applications/Confab App.app\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5B0A9A4184131AA0004C4C7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\ncd \"../web/\"\ncp -rf \"${BUILD_DIR}/${CONFIGURATION}${EFFECTIVE_PLATFORM_NAME}/Confab App.app\" \"Confab.app\"\nzip -r \"Confab-App.zip\" \"Confab.app\"\nrm -rf \"Confab.app\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5AC25F6170F175D00A84B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E53D247518330CDB00FD1BFC /* CFAAuthorizationCredentialsVault.m in Sources */,
+				E53D24C018330D0B00FD1BFC /* MMAccountsTableViewManager.m in Sources */,
+				E53D24C518330D0B00FD1BFC /* MMMainWindowController.m in Sources */,
+				E53D24CE18330D0B00FD1BFC /* MMRoomInfoViewController.m in Sources */,
+				E53D24DC18330D0B00FD1BFC /* MMRoomTableCellView.m in Sources */,
+				E581DDC817F061AE00B8CDB1 /* MMAppDelegate.m in Sources */,
+				E51E6BF01832A94E0066869B /* ConfabAppTypography.m in Sources */,
+				E53D24EF18330D0B00FD1BFC /* MMChatTextView.m in Sources */,
+				2270457564894BA3B5F73FA1 /* MMDataStackManager.m in Sources */,
+				E53D24F118330D0B00FD1BFC /* MMFixedTextField.m in Sources */,
+				CDA42A7E13CC4D6EB7447A4B /* MMImageValueTransformer.m in Sources */,
+				E58D51671852CDC50023D802 /* CFARoomPreferencesViewController.m in Sources */,
+				8A6D1D9420AA46AF9B20A823 /* MMNetworkStackManager.m in Sources */,
+				BD313E2555FF428EA013B50F /* MMNotificationManager.m in Sources */,
+				E53D24BD18330D0B00FD1BFC /* MMAccountsViewController.m in Sources */,
+				2FC35CFEC5284B0BB7DD37E3 /* CFAPreferencesManager.m in Sources */,
+				E53CD605183698F000D9F513 /* CFAAuthorizationTokenViewController.m in Sources */,
+				E53D24C218330D0B00FD1BFC /* CFAAuthWindowController.m in Sources */,
+				E53D24E218330D0B00FD1BFC /* MMUserTableCellView.m in Sources */,
+				E53D24D118330D0B00FD1BFC /* MMRoomViewController.m in Sources */,
+				E53D24DF18330D0B00FD1BFC /* MMTextMessageContentView.m in Sources */,
+				E58D516C1852CE3F0023D802 /* CFAPreferencesWindowController.m in Sources */,
+				E53D24D418330D0B00FD1BFC /* MMInfoTableCellView.m in Sources */,
+				E53D24D918330D0B00FD1BFC /* MMPasteMessageContentView.m in Sources */,
+				E53D24ED18330D0B00FD1BFC /* MMTableCellHeighManager.m in Sources */,
+				DA28ACA81DCD45BCBB430531 /* MMUser.m in Sources */,
+				8E31A5CDE79D4CDFB1093934 /* MMWindowsManager.m in Sources */,
+				E53D24D718330D0B00FD1BFC /* MMContentView.m in Sources */,
+				E53D24E918330D0B00FD1BFC /* MMRoomTableManager.m in Sources */,
+				E53D250518330D6800FD1BFC /* MMUsersFetcher.m in Sources */,
+				E53D24E518330D0B00FD1BFC /* MMRoomCellProvider.m in Sources */,
+				E53D250118330D6800FD1BFC /* MMUserImageCache.m in Sources */,
+				E58CD7431855E4B200FFFFE6 /* CFARoomBackgroundView.m in Sources */,
+				E53D24F718330D1B00FD1BFC /* CFAGeneralPreferencesViewController.m in Sources */,
+				E581DDCE17F061AE00B8CDB1 /* main.m in Sources */,
+				E53D250318330D6800FD1BFC /* MMUserImageProvider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E5B0A9A31841319B0004C4C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E5AC25F9170F175D00A84B20 /* Confab App */;
+			targetProxy = E5B0A9A21841319B0004C4C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E581DD4C17F061AE00B8CDB1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E581DD4D17F061AE00B8CDB1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		E581DD9B17F061AE00B8CDB1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E581DD9C17F061AE00B8CDB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E5AC2629170F175D00A84B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E5AC262A170F175D00A84B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E5AC262C170F175D00A84B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0807BD6D95884941A898B866 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Confab App/Supporting Files/Confab App-Prefix.pch";
+				INFOPLIST_FILE = "Confab App/Supporting Files/Confab App-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5AC262D170F175D00A84B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0807BD6D95884941A898B866 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Confab App/Supporting Files/Confab App-Prefix.pch";
+				INFOPLIST_FILE = "Confab App/Supporting Files/Confab App-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E5ADC05E17F2E2930046F270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5ADC05F17F2E2930046F270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E5B0A99F184131930004C4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E5B0A9A0184131930004C4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5AC25F5170F175D00A84B20 /* Build configuration list for PBXProject "Confab App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AC2629170F175D00A84B20 /* Debug */,
+				E5AC262A170F175D00A84B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5AC262B170F175D00A84B20 /* Build configuration list for PBXNativeTarget "Confab App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5AC262C170F175D00A84B20 /* Debug */,
+				E5AC262D170F175D00A84B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5ADC06017F2E2930046F270 /* Build configuration list for PBXAggregateTarget "Install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5ADC05E17F2E2930046F270 /* Debug */,
+				E5ADC05F17F2E2930046F270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5B0A9A1184131930004C4C7 /* Build configuration list for PBXAggregateTarget "Release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5B0A99F184131930004C4C7 /* Debug */,
+				E5B0A9A0184131930004C4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7704D96286084FC7A853B136 /* Confab App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9C1AD8532FA044CDA884F451 /* Confab App.xcdatamodel */,
+			);
+			currentVersion = 9C1AD8532FA044CDA884F451 /* Confab App.xcdatamodel */;
+			path = "Confab App.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E5AC25F2170F175D00A84B20 /* Project object */;
+}

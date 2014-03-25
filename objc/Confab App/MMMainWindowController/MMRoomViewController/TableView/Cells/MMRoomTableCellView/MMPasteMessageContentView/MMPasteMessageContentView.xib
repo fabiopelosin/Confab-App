@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4488.2" systemVersion="12E55" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1080" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4488.2"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <customView id="1" customClass="MMPasteMessageContentView">
+            <rect key="frame" x="0.0" y="0.0" width="324" height="117"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="xGu-vp-ub7">
+                    <rect key="frame" x="-1" y="42" width="326" height="75"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <textFieldCell key="cell" controlSize="mini" truncatesLastVisibleLine="YES" selectable="YES" allowsUndo="NO" sendsActionOnEndEditing="YES" placeholderString="" id="ymd-gv-PdW">
+                        <font key="font" size="12" name="Monaco"/>
+                        <string key="title">"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</string>
+                        <color key="textColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="xGu-vp-ub7" firstAttribute="leading" secondItem="1" secondAttribute="leading" constant="2" id="KBu-L3-ffa"/>
+                <constraint firstItem="xGu-vp-ub7" firstAttribute="top" secondItem="1" secondAttribute="top" id="VC5-Xw-2b8"/>
+                <constraint firstAttribute="trailing" secondItem="xGu-vp-ub7" secondAttribute="trailing" constant="2" id="rTu-z5-FD0"/>
+            </constraints>
+            <connections>
+                <outlet property="messageTextField" destination="xGu-vp-ub7" id="ZaM-4W-al4"/>
+            </connections>
+        </customView>
+    </objects>
+</document>
