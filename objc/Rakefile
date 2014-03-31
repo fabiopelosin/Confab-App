@@ -54,3 +54,13 @@ task :generate_icons do
   generate_images_for_icon_set(source_path, icon_set)
 end
 
+
+# Build
+#-----------------------------------------------------------------------------#
+
+desc "Builds the project"
+task :build do
+  p workspace = Dir.glob("*.xcworkspace").first
+  p scheme = File.basename(workspace).split('.').first
+  sh "xcodebuild -workspace '#{workspace}' -scheme '#{scheme}' | xcpretty --color"
+end
