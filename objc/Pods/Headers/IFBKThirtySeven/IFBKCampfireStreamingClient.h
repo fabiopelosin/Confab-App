@@ -1,0 +1,1 @@
+../../../../../IFBKThirtySeven/Classes/IFBKCampfireStreamingClient.h

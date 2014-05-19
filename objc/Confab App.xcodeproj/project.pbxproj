@@ -136,6 +136,7 @@
 		E53D250518330D6800FD1BFC /* MMUsersFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = E53D24FF18330D6800FD1BFC /* MMUsersFetcher.m */; };
 		E55E661A183BC7F1003FA8FC /* WelcomeMessage.html in Resources */ = {isa = PBXBuildFile; fileRef = E55E6619183BC7F1003FA8FC /* WelcomeMessage.html */; };
 		E55E661C183BCA95003FA8FC /* WelcomeMessageIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = E55E661B183BCA95003FA8FC /* WelcomeMessageIcon.png */; };
+		E56CFF0E192AB4ED00F77A6C /* Pods.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E56CFF0D192AB4ED00F77A6C /* Pods.xcconfig */; };
 		E581DDA717F061AE00B8CDB1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E581DD4C17F061AE00B8CDB1 /* MainMenu.xib */; };
 		E581DDC817F061AE00B8CDB1 /* MMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E581DD9017F061AE00B8CDB1 /* MMAppDelegate.m */; };
 		E581DDCC17F061AE00B8CDB1 /* bot_avatar.png in Resources */ = {isa = PBXBuildFile; fileRef = E581DD9817F061AE00B8CDB1 /* bot_avatar.png */; };
@@ -170,7 +171,6 @@
 /* Begin PBXFileReference section */
 		01EBC8C84248414E8E918CA2 /* MMDataStackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDataStackManager.h; path = MMApp/DataStack/MMDataStackManager.h; sourceTree = "<group>"; };
 		038AB67CC10C4464B890A577 /* MMNotificationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMNotificationManager.h; path = MMApp/NotificationsManager/MMNotificationManager.h; sourceTree = "<group>"; };
-		0807BD6D95884941A898B866 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		0B1D5E45EE30428F942E9442 /* CFAPreferencesManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CFAPreferencesManager.m; path = ../MMApp/PreferencesManager/CFAPreferencesManager.m; sourceTree = "<group>"; };
 		1A40D0BB06F2452F8BE44B69 /* MMPasteMessageContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMPasteMessageContentView.h; path = Cells/MMPasteMessageContentView.h; sourceTree = "<group>"; };
 		1F6E7A6B56AF466E94A9F6DF /* MMTextMessageTableCellView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMTextMessageTableCellView.h; path = Cells/Deprecated/MMTextMessageTableCellView.h; sourceTree = "<group>"; };
@@ -276,6 +276,7 @@
 		E53D24FF18330D6800FD1BFC /* MMUsersFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMUsersFetcher.m; sourceTree = "<group>"; };
 		E55E6619183BC7F1003FA8FC /* WelcomeMessage.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = WelcomeMessage.html; sourceTree = "<group>"; };
 		E55E661B183BCA95003FA8FC /* WelcomeMessageIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WelcomeMessageIcon.png; sourceTree = "<group>"; };
+		E56CFF0D192AB4ED00F77A6C /* Pods.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		E581DD4D17F061AE00B8CDB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		E581DD8F17F061AE00B8CDB1 /* MMAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAppDelegate.h; sourceTree = "<group>"; };
 		E581DD9017F061AE00B8CDB1 /* MMAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAppDelegate.m; sourceTree = "<group>"; };
@@ -631,7 +632,6 @@
 				E581DD9917F061AE00B8CDB1 /* Supporting Files */,
 				E5AC25FC170F175D00A84B20 /* Frameworks */,
 				E5AC25FB170F175D00A84B20 /* Products */,
-				0807BD6D95884941A898B866 /* Pods.xcconfig */,
 			);
 			name = Other;
 			sourceTree = "<group>";
@@ -651,6 +651,7 @@
 		E5AC25F1170F175D00A84B20 = {
 			isa = PBXGroup;
 			children = (
+				E56CFF0D192AB4ED00F77A6C /* Pods.xcconfig */,
 				E581DD3B17F061AE00B8CDB1 /* Confab App */,
 				E53D247E18330D0B00FD1BFC /* Auth Window */,
 				E53D247618330D0B00FD1BFC /* Main Window */,
@@ -857,6 +858,7 @@
 				E53D24BE18330D0B00FD1BFC /* MMAccountsViewController.xib in Resources */,
 				E58D51681852CDC50023D802 /* CFARoomPreferencesViewController.xib in Resources */,
 				E53CD606183698F000D9F513 /* CFAAuthorizationTokenViewController.xib in Resources */,
+				E56CFF0E192AB4ED00F77A6C /* Pods.xcconfig in Resources */,
 				E53D24C618330D0B00FD1BFC /* MMMainWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1011,6 +1013,7 @@
 /* Begin XCBuildConfiguration section */
 		E5AC2629170F175D00A84B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E56CFF0D192AB4ED00F77A6C /* Pods.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1100,7 +1103,6 @@
 		};
 		E5AC262C170F175D00A84B20 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0807BD6D95884941A898B866 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -1115,7 +1117,7 @@
 		};
 		E5AC262D170F175D00A84B20 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0807BD6D95884941A898B866 /* Pods.xcconfig */;
+			baseConfigurationReference = E56CFF0D192AB4ED00F77A6C /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;

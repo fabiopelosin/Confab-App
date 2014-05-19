@@ -1,0 +1,1 @@
+../../../../../IFBKThirtySeven/Classes/NSString+IFBKThirtySeven.h

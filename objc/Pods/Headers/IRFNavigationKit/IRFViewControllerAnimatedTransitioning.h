@@ -1,0 +1,1 @@
+../../IRFNavigationKit/Classes/IRFViewControllerAnimatedTransitioning.h

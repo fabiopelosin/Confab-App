@@ -1,0 +1,1 @@
+../../IRFNavigationKit/Classes/Navigation Bar/IRFNavigationBarDelegate.h

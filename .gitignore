@@ -24,7 +24,6 @@ build/
 *.dep
 
 # CocoaPods
-Pods
 *.xccheckout
 
 # AppCode specific files

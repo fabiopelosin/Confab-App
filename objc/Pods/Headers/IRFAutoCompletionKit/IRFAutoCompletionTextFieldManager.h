@@ -1,0 +1,1 @@
+../../IRFAutoCompletionKit/Classes/osx/ViewManagers/IRFAutoCompletionTextFieldManager.h

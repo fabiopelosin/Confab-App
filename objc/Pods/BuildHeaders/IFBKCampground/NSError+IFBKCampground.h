@@ -1,0 +1,1 @@
+../../IFBKCampground/Classes/NSError+IFBKCampground.h

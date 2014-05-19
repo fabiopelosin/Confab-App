@@ -1,0 +1,5 @@
+#include "Pods-twitter-text-objc.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/twitter-text-objc" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/AFNetworking" "${PODS_ROOT}/Headers/IFBKCampground" "${PODS_ROOT}/Headers/IFBKThirtySeven" "${PODS_ROOT}/Headers/IRFAutoCompletionKit" "${PODS_ROOT}/Headers/IRFEmojiCheatSheet" "${PODS_ROOT}/Headers/IRFNavigationKit" "${PODS_ROOT}/Headers/MASPreferences" "${PODS_ROOT}/Headers/MagicalRecord" "${PODS_ROOT}/Headers/ObjectiveSugar" "${PODS_ROOT}/Headers/Reachability" "${PODS_ROOT}/Headers/SBJson" "${PODS_ROOT}/Headers/twitter-text-objc"
+OTHER_LDFLAGS = -ObjC
+PODS_ROOT = ${SRCROOT}

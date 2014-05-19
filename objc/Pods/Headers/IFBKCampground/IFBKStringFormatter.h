@@ -1,0 +1,1 @@
+../../IFBKCampground/Classes/Rooms/IFBKStringFormatter.h

@@ -1,0 +1,1 @@
+../../IRFAutoCompletionKit/Classes/IRFAutoCompletionProvider.h
