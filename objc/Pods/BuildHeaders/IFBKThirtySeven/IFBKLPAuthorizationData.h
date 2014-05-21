@@ -1,1 +1,1 @@
-../../../../../IFBKThirtySeven/Classes/Models/IFBKLPAuthorizationData.h
+../../IFBKThirtySeven/Classes/Models/IFBKLPAuthorizationData.h

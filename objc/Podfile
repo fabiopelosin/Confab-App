@@ -1,6 +1,6 @@
 inhibit_all_warnings!
 
-pod 'IFBKThirtySeven',      :path => '../../IFBKThirtySeven'
+pod 'IFBKThirtySeven',      :git => 'https://github.com/kreeger/IFBKThirtySeven.git'
 pod 'IFBKCampground',       :git => 'https://github.com/irrationalfab/IFBKCampground.git'
 pod 'IRFNavigationKit',     :git => 'https://github.com/irrationalfab/IRFNavigationKit.git'
 pod 'IRFAutoCompletionKit', :git => 'https://github.com/irrationalfab/IRFAutoCompletionKit'
