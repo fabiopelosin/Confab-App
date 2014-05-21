@@ -45,6 +45,7 @@ PODS:
   - IRFAutoCompletionKit/ViewManagers (0.2.0)
   - IRFEmojiCheatSheet (0.3.0)
   - IRFNavigationKit (0.1.0)
+  - LibYAML (0.1.4)
   - MagicalRecord (2.2):
     - MagicalRecord/Core
   - MagicalRecord/Core (2.2)
@@ -59,6 +60,7 @@ DEPENDENCIES:
   - IFBKThirtySeven (from `../../IFBKThirtySeven`)
   - IRFAutoCompletionKit (from `https://github.com/irrationalfab/IRFAutoCompletionKit`)
   - IRFNavigationKit (from `https://github.com/irrationalfab/IRFNavigationKit.git`)
+  - LibYAML
   - MagicalRecord
   - MASPreferences
   - ObjectiveSugar
@@ -81,6 +83,7 @@ SPEC CHECKSUMS:
   IRFAutoCompletionKit: 9b1b51f4950a23c4c9fb1a901c593b20049194cb
   IRFEmojiCheatSheet: fbf6c13ac33972298bced09516cc15ec029dba7a
   IRFNavigationKit: 606ebd50e5c0ae8c2c20ea5f8ce03d89dd56eea3
+  LibYAML: d447960375d9114187bfddba6e6c24d69bff11f8
   MagicalRecord: 2b471584fc9e3137f3d0a56967917baa4979e224
   MASPreferences: 971d03da4b3818f8ea0d0ef10b86b02b2c052d17
   ObjectiveSugar: f48793f5902c77cfc02a4ce46d2e8ecddcad4dc2
@@ -88,4 +91,4 @@ SPEC CHECKSUMS:
   SBJson: 72d7da8a5bf6c236e87194abb10ac573a8bccbef
   twitter-text-objc: 5b928610be8383e523aa54e783b5b16a20f5bdcd
 
-COCOAPODS: 0.32.1
+COCOAPODS: 0.33.0
